@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
+<title>编组 6</title>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(-1693 -154)">
+<g transform="translate(1693 154)">
+<rect width="88" height="88" fill="#000" fill-rule="nonzero" opacity="0"/>
+<path d="m44 8c-19.88 0-36 16.12-36 36s16.12 36 36 36 36-16.12 36-36-16.12-36-36-36z" fill="#48C774"/>
+<g transform="translate(29 32)" stroke="#fff" stroke-dasharray="0,0" stroke-linejoin="round" stroke-width="6">
+<path d="m32 0-22 22-10-10"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

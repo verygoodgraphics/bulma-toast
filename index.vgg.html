@@ -13,8 +13,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
-    <script src="https://unpkg.com/bulma-toast"></script>
+    <script src="dist/bulma-toast.min.js"></script>
 
     <style>
       html,
@@ -248,7 +249,8 @@
 
       function displayToast(position) {
         bulmaToast.toast({
-          message: quotes[Math.floor(Math.random() * (quotes.length + 1))],
+          message: `<image src="assets/success.svg" style="width:16px;height:16px;margin-right:8px"/>
+                    <span style="font-size:14px">success</span>`,
           type: 'is-success is-light',
           position: position.toLowerCase().replace(' ', '-'),
           duration: 400000,
